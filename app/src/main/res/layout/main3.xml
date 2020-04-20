@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:padding="8dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+				android:text="Display1"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+				android:text="Display2"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+				android:text="Display3"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+				android:text="Display4"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Title"
+				android:text="Title"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+				android:text="Caption"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+				android:text="Subhead"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+				android:text="Body1"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+				android:text="Body2"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

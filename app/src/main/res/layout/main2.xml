@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:padding="8dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Title"
+				android:text="Styling Text"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+				android:text="April 19, 2020"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+				android:text="Using AppCompat Styles"
+				android:layout_marginTop="8dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+				android:text="We can style our text appearance to be a title by using this attribute:"
+				android:layout_marginTop="8dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+				android:text="TextAppearance.AppCompat.Title"
+				android:layout_marginTop="8dp"
+				android:layout_marginLeft="16dp"
+				android:background="#D3FFFE"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
